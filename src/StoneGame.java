@@ -14,7 +14,6 @@ public class StoneGame {
         int i = Setting.sumStone();
         System.out.println("1度に取れる石の数を指定してください。");
         int max = Setting.getStoneMax();
-        System.out.println("プレイヤーを指定してください。");
         System.out.println("""
                 石の記号を指定してください。
                 1:◯　2:×　3:△　4:□　5:☆""");
